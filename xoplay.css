@@ -1,0 +1,56 @@
+
+body{
+background-color: gainsboro;
+
+
+
+}
+
+
+#img1{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p{
+color:black;
+font-size: 28px;
+font-size: bold;
+text-align: center;
+border: brown solid 1px ;
+padding: 3px;
+
+
+}
+#parWinner{
+    background-color: green;
+    color: white;
+}
+
+
+#all
+{
+    display: grid;
+justify-content: center;
+
+}
+
+#board {
+display: grid;
+grid-template-columns: repeat(3,180px); /*3 times of box (100px)  */
+justify-content: center;
+
+}
+
+.cell{
+text-align: center;
+font-size: 180px;
+color: white;
+width: 180Px;
+height: 180px;
+border: solid black 2px;
+background:url('./Eren.jpg');
+justify-content: center;
+background-size:270px;
+background-attachment:fixed;
+}
